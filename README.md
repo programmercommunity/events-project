@@ -3,4 +3,4 @@
 Font: [Google Fonts](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
 
 The Interface:
-![Design](https://github.com/user-attachments/assets/b997ad33-01e6-4a4a-8487-a3ef2ed55f9f)
+![Design](https://github.com/user-attachments/assets/c262f57e-f299-4312-a7d8-6ae6b6712220)
