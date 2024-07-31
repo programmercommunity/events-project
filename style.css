@@ -1,0 +1,246 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* hero */
+.header{
+    min-height: 100vh;
+     background-image: url("./danny-howe-bn-D2bCvpik-unsplash.jpg") ;
+     background-position: center;
+     background-size: cover;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 50px;
+    }
+
+    .banner{ 
+    display: flex; 
+    align-items: center;
+    }
+
+    .logo{
+    color: white;
+    }
+    
+    .logo h6{
+    letter-spacing: 3px;
+    }
+    
+    nav{
+    background-color: rgba(55, 48, 48, 0.758);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    margin-left: 380px; 
+    }
+
+    nav a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    .descr1{
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    }
+    .header hr{
+    width: 70px;
+  margin-top: 10px;  
+    }
+
+    .title{
+    color: white;
+    font-size: 80px;
+    margin-top: 35px;
+    margin-left: 100px;
+    }
+
+    .subtitle{
+    color: white;
+    font-size: 80px;
+    margin-left: 100px;
+    }
+
+    .box{
+     width: 210px;
+    height: 60px; 
+    background-color:  rgba(126, 115, 115, 0.317);
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 30px;    
+    }
+    
+    .arrow i{
+    color: black;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px; 
+    }
+
+    .arrow{
+    background-color:white;
+    border-radius: 50px;
+    height: 60px; 
+    width: 60px;   
+    margin-top: -40px;  
+    } 
+           
+    .box h4{
+    color: white;
+    padding-top: 22px;
+    padding-left: 80px;
+    } 
+    
+    
+    
+           
+         
+    
+    
+    
+    
+    
+    
+/* Daily Schedule */
+.daily-schedule{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-color: black; 
+    padding-top: 40px;
+    }
+
+    .container{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 100px;
+    }
+
+    .container div{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    } 
+     
+    .descr6{
+    display: flex;
+    color: white;
+    margin-left: 60px;
+    } 
+
+    .daily-schedule hr{
+    width: 70px;
+    margin-top: 10px;  
+    }
+
+    .circle1{
+    background-image: url("./pexels-vishnurnair-1105666.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .circle2{
+    background-image: url("./pexels-brett-sayles-8170126.jpg") ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 50px;
+    }
+
+    .circle3{
+    background-image: url("./ab67706c0000bebb4be6a958138e3b321d1278b6.jpeg") ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 100px;
+    }
+
+    .container h4{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    }
+
+    .container h5{
+    color: white;
+    text-align: center;
+    }
+    
+
+
+/* footer */
+footer{
+    background-color: black;
+    height: 80vh;
+    padding: 50px 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+    }
+
+    .footer-row{
+    display: flex;
+    }
+
+    .footer-row ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    }
+
+    .footer-col1{
+    width: 40%;
+    }
+    .footer-col2{
+    width: 15%;
+    }
+    .footer-col3{
+    width: 25%;
+    }
+
+    .footer-row h6{
+    padding-bottom: 30px;
+    color: gray;
+    }
+    .logo2 h6{
+    letter-spacing: 4px;
+    font-size: 5px;
+    color: white; 
+    }
+    
+    .vertical-line{
+    width: 1px;
+    height: 40px;
+    background-color: aquamarine;
+    margin-top: 250px;
+    margin-left: 4px;
+    }
+
+    .footer-col1 ul li{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    }
+
+    .footer-col4 a{
+    text-decoration: none;
+    color: rgb(25, 15, 91);
+    color: darkslateblue;
+    border-bottom: 1px dashed;
+    }
+
+    .copyright{
+    padding-left: 40%;
+    color: gray;
+    }
+
+    .copyright2{
+    padding-left: 80%;
+    color: gray;
+    margin-top: -15px;
+    }
+
+
+
+    
