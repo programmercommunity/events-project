@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <style>
-      body 
+    <style
+
+      .plus-jakarta-sans-uniquifier> {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
       .container {
         text-align: right;
+        padding: 20px;
       }
       .headline {
         text-align: left;
         font-size: 2.25rem; 
         font-weight: bold;
         color: #010307; 
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
       hr {
         border-color: #010710; 
         margin: 1rem 0;
       }
       .description {
-        text-align: right;
-        color: #4a5568;
-        margin-bottom: 1rem;
+        text-align: left;
+        color: #111318;
+        margin-bottom: 2rem;
       }
       button {
         background-color: #0a0b0b;
@@ -40,25 +53,70 @@
         outline: none;
         box-shadow: 0 0 0 2px rgba(254, 254, 254, 0.5);
       }
+      .text-center {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .inline-flex {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.10rem 2rem;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 9999px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      .inline-flex:hover {
+        background-color: #333;
+      }
+      .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem; 
+        height: 2rem; 
+        background-color: white;
+        color: black; 
+        border-radius: 50%; 
+        margin-right: -1rem;
+        top: -0.5rem;
+        left: -0.5rem;
+        transform: translate(-99%, 2%);
+        z-index: 1;
 
+
+      }
+      .icon-container svg {
+        width: 3rem; 
+        height: 3rem; 
+      }
     </style>
   </head>
-  <body>        
+  <body>    
     <div class="container">
       <h1 class="headline">
         With a stunning lineup of headliners and <br>
         immersive experiences, this is the must-<br>
         attend event of the summer.
-      </h1>
-      <hr>
-      <p class="description" >
+      </h1><br>
+      <hr><br>
+      <p class="description">
         Sunset Music Festival Is Back For Its 14th Edition; Promising An <br>
         Unparalleled Celebration Of Music, Art, And Culture, Join US For <br>
         Three Days Of Unforgettable Performances.
       </p>
-      <button>
-        More About Us
-      </button>
+      <div class="text-lift">
+        <a href="#" class="inline-flex items-center px-py px-py bg-black text-white font-semibold rounded-full hover:bg-gray-800 transition">
+          <span class="icon-container">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </span>
+          <span>More About Us</span>
+        </a>
+      </div>
     </div>
   </body>
 </html>
