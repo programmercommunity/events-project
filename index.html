@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script> 
       tailwind.config = { 
@@ -19,157 +20,6 @@
       } 
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Handlee&family=Lobster&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
-    </style>
-    <style>
- 
-@keyframes fadeUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        } .fade-up {
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeUp 1.5s  ease-in-out forwards;
-        } .fade-upaos{
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeUp 1.5s  ease-in-out forwards;
-            animation-timeline: view();
-            animation-range: entry 0% cover 20%;
-        }
-        .fadedown{
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadedown 1.5s ease-in-out forwards;
-        } 
-        @keyframes fadedown {
-            0% {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        } 
-        @keyframes fadeLeft {
-           0% {
-                opacity: 0;
-                transform: translateX(-50px);
-              }
-        100% {
-               opacity: 1;
-                 transform: translateX(0);
-              }
-          }
-    .fade-laos {
-        opacity: 0;
-        transform: translateX(20px);
-        animation: fadeLeft 1.5s  linear forwards;
-        animation-timeline: view() ;
-        animation-range: entry 0% cover 40%;    
-      }.fade-left {
-        opacity: 0;
-        transform: translateX(20px);
-        animation: fadeLeft 1.5s  linear forwards;
-      }
-        .delay-1 {
-            animation-delay: 0.5s;
-        }.delay-5{
-          animation-delay: 1s;
-        }
-      .plus-jakarta-sans-uniquifier> {
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: weight;
-      font-style: normal;
-      }
-      body {
-        font-family: Arial, sans-serif;
-      }
-      .container {
-        text-align: right;
-        padding: 20px;
-      }
-      .headline {
-        text-align: left;
-        font-size: 2.25rem; 
-        font-weight: bold;
-        color: #010307; 
-        margin-bottom: 2rem;
-      }
-      hr {
-        border-color: #010710; 
-        margin: 1rem 0;
-      }
-      .description {
-        text-align: right;
-        color: #111318;
-        margin-bottom: 2rem;
-      }
-      button {
-        background-color: #0a0b0b;
-        color: white;
-        padding: 0.75rem 1.5rem;
-        border-radius: 9999px; 
-        border: none;
-        cursor: pointer;
-        font-size: 1rem;
-        transition: background-color 0.3s, box-shadow 0.3s;
-      }
-      button:hover {
-        background-color: #e0e3e6; 
-      }
-      button:focus {
-        outline: none;
-        box-shadow: 0 0 0 2px rgba(254, 254, 254, 0.5);
-      }
-      .text-center {
-        text-align: center;
-        margin-top: 20px;
-      }
-      .inline-flex {
-        display: inline-flex;
-        align-items: center;
-        padding: 0.10rem 2rem;
-        background-color: black;
-        color: white;
-        font-weight: bold;
-        border-radius: 9999px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-      .inline-flex:hover {
-        background-color: #333;
-      }
-      .icon-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 2rem; 
-        height: 2rem; 
-        background-color: white;
-        color: black; 
-        border-radius: 50%; 
-        margin-right: -1rem;
-        top: -0.5rem;
-        left: -0.5rem;
-        transform: translate(-99%, 2%);
-        z-index: 1;
-      }
-      .icon-container svg {
-        width: 3rem; 
-        height: 3rem; 
-      }
-    </style>
   </head>
   <body>  
     <!-- hero -->
@@ -197,13 +47,15 @@
     <h1 class="font-custom fade-up">Sunset Music</h1>
     <h2 class="font-custom delay-1 fade-up">Festival 2024</h2>
   </div>
-  <div class="bg-neutral-700 mt-10 ml-28 rounded-full flex w-1/6 flex justify-right opacity-90">
-    <div class="bg-white text-slate-900  rounded-full p-4 ">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.75 -0.75 16 16" stroke="currentColor" aria-hidden="true" id="Arrow-Right--Streamline-Heroicons-Outline" height="28" width="28"><desc>Arrow Right Streamline Icon: https://streamlinehq.com</desc><path stroke-linecap="round" stroke-linejoin="round" d="M8.343058333333333 1.7845875L13.808470833333333 7.25M13.808470833333333 7.25L8.343058333333333 12.7154125M13.808470833333333 7.25H0.6915291666666666" stroke-width="1"></path></svg>
-    </div>
-    <h4 class="p-4 ">BUY TICKETS</h4>
+  <!-- button 1 --> 
+  <div class="btn1 bg-neutral-700 mt-10 ml-28 rounded-full flex w-1/6 flex justify-right opacity-90">
+  <div  class="icon-container w-16 h-16 relative left-16 top-0 bg-white text-slate-900 rounded-full p-4">
+    <div class="arow"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.75 -0.75 16 16" stroke="currentColor" aria-hidden="true" id="Arrow-Right--Streamline-Heroicons-Outline" height="28" width="28"><desc>Arrow Right Streamline Icon: https://streamlinehq.com</desc><path stroke-linecap="round" stroke-linejoin="round" d="M8.343058333333333 1.7845875L13.808470833333333 7.25M13.808470833333333 7.25L8.343058333333333 12.7154125M13.808470833333333 7.25H0.6915291666666666" stroke-width="1"></path></svg></div>
+    <div class="ticket"><img src="ticket.png"></div>
   </div>
-</div>  
+  <h4 class="pt-5 pl-14 text-xl hover:text-black ">BUY TICKETS</h4>
+  </div> 
+</div>
 <!-- second section -->
     <div class="container mt-2">
       <div class="flex mt-28  ">
@@ -254,13 +106,12 @@
     <div><img class="hover:skew-x-6 hover:scale-100 transition ease-in-out w-80 h-full" src="./pexels-srijonism-3739385.jpg" alt="" ></div>
   <div ><img class="hover:skew-x-6 hover:scale-100 transition ease-in-out w-80 h-full" src="./pexels-jibarofoto-2091383.jpg" alt="" ></div>
   <div><img class="hover:skew-x-6 hover:scale-100 transition ease-in-out w-80 h-full" src="./pexels-wendywei-4945353.jpg" alt="" ></div> 
-  </div>
-  <div class="bg-neutral-700 mt-20 ml-28 mb-28 rounded-full  fade-upaos flex w-10/12 opacity-90">
-    <div class="bg-white text-slate-900 rounded-full p-4 ">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.75 -0.75 16 16" stroke="currentColor" aria-hidden="true" id="Arrow-Right--Streamline-Heroicons-Outline" height="28" width="28"><desc>Arrow Right Streamline Icon: https://streamlinehq.com</desc><path stroke-linecap="round" stroke-linejoin="round" d="M8.343058333333333 1.7845875L13.808470833333333 7.25M13.808470833333333 7.25L8.343058333333333 12.7154125M13.808470833333333 7.25H0.6915291666666666" stroke-width="1"></path></svg>
-    </div>
-    <h4 class="p-4 pl-80 ">EXPLORE MORE PHOTOS AND VIDEOS</h4>
-  </div>
+  </div> 
+  <div class="slider-container bg-neutral-700 mt-20 ml-28 mb-28 rounded-full  fade-upaos flex w-10/12 opacity-90">
+		<input type="range" value="0" min="0" max="100" class="slider animate-pulse" id="myRange">
+		<div class="slider-label">EXPLORE MORE PHOTOS AND VIDEOS</div>
+	</div>
+	
   </div>
   
 <!-- location details -->
@@ -379,5 +230,15 @@
   <h5 class=" text-gray-400 pl-60">&copy; 2024-copyright</h5>
 </div>
 </div>
+<script> 
+  var slider = document.getElementById("myRange");
+
+slider.oninput = function() {
+  if (this.value >= 80) {
+      this.value = 100;
+  }
+}
+
+</script>
   </body>
 </html>
